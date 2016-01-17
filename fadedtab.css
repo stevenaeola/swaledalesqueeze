@@ -113,15 +113,17 @@ height:65px;
 line-height:65px;
 font:Arial, Helvetica, sans-serif;
 font-size:20px;
-background-image:url(images/arrow_link_background.png);
+/*background-image:url(images/arrow_link_background.png);
 background-repeat:no-repeat;
-padding-left:50px;
+*/
+padding-left:20px;
 }
 
 #bottomContent .navColumn .link:hover
 {
-background-image:url(images/rollover_back65.png);
+/*background-image:url(images/rollover_back65.png);
 background-repeat:no-repeat;
+*/
 }
 
 a
