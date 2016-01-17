@@ -12,7 +12,7 @@ more could a conertina player ask for?  Everything is centred on <a href='http:/
 
 function rhcontent(){
    box("<h1>Concertina weekend 20-22 May 2016</h1>
-<p>The guest tutors for this year's squeeze are Brian Peters (Anglo),
+<p>The guest tutors for the 2016 squeeze are Brian Peters (Anglo),
 Iris Bishop (Duet) and 
 Alex Wade (English), with additional workshops from Paul McCann (Duet)
 and Rob Say (English). Our regular tutors are Harry Scurfield (Anglo), Paul Walker (English/Anglo), Carolyn Wade (Band)  and Dave Ball (Band/English).</p>

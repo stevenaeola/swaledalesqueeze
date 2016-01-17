@@ -7,7 +7,7 @@ function overview(){
 
 function rhcontent(){
    box("<h1>Tutors</h1>
-<p>The guest tutors for this year's squeeze are Brian Peters (Anglo),
+<p>The guest tutors for the 2016 squeeze are Brian Peters (Anglo),
 Iris Bishop (Duet) and 
 Alex Wade (English), with additional workshops from Paul McCann (Duet)
 and Rob Say (English). Our regular tutors are Harry Scurfield (Anglo), Paul Walker (English/Anglo), Carolyn Wade (Band)  and Dave Ball (Band/English). Together they provide workshops covering a whole range of concertina playing for different abilities, systems and styles.
