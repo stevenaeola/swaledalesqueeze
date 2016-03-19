@@ -28,7 +28,7 @@ function rhcontent(){
   box("<h1>Prices</h1>
 <p>All prices are in pounds</p>
 $priceList
-<!--<p>&dagger; A large pod sleeps up to five people and costs £98 for the weekend in addition to the price listed in the table. A smaller pod sleeps up to three people and costs £80 for the weekend plus the price in the table. Please get in touch to confirm availability of pods before booking. N.B. Pods do not come with any beds or bedding, consider them as wooden tents.</p>-->
+<p>&dagger; Camping pods are also avaiable, please get in touch by email if you're interested.</p>
 ");
 
   box("
