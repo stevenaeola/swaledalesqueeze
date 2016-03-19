@@ -6,29 +6,29 @@ function accomPrices(){
    return array(
     "bunks_frimeal" =>
        array("title" => "Youth Hostel (including Friday evening meal)",
-             "adults" => 165,
-             "nonplayers" => 110,
-             "children" => 87,
-             "childrennonplayers" => 72),
+             "adults" => 170,
+             "nonplayers" => 115,
+             "children" => 80,
+             "childrennonplayers" => 80),
     "bunks_nofrimeal" =>
        array("title" => "Youth Hostel (no Friday evening meal)",
-             "adults" => 157,
-             "nonplayers" => 100,
-             "children" => 79,
-             "childrennonplayers" => 64),
+             "adults" => 165,
+             "nonplayers" => 105,
+             "children" => 80,
+             "childrennonplayers" => 70),
     "tent" => 
        array("title" => "Camping (tent)",
-             "adults" => 105,
+             "adults" => 115,
              "nonplayers" => 55,
-             "children" => 35,
-             "childrennonplayers" => 18),
+             "children" => 25,
+             "childrennonplayers" => 25),
     "campervan" => 
        array("title" => "Camping (camper van)",
-             "adults" => 105,
+             "adults" => 115,
              "nonplayers" => 55,
-             "children" => 35,
-             "childrennonplayers" => 18),
-    "pod_small" => 
+             "children" => 25,
+             "childrennonplayers" => 25),
+/*    "pod_small" => 
        array("title" => "Pod (small)",
              "adults" => 90,
              "nonplayers" => 35,
@@ -39,12 +39,12 @@ function accomPrices(){
              "adults" => 90,
              "nonplayers" => 35,
              "children" => 15,
-             "childrennonplayers" => 0),
+             "childrennonplayers" => 0),*/
     "alt" => 
        array("title" => "Alternative accommodation (e.g. B&amp;B)",
              "adults" => 90,
-             "nonplayers" => 35,
-             "children" => 15,
+             "nonplayers" => 15,
+             "children" => 0,
              "childrennonplayers" => 0)
     );
 }
@@ -60,7 +60,7 @@ function links(){
    array("link" =>"Home", "url" => "index.php"),
    array("link" =>"Course Details", "url" => "course.php"),
    array("link" =>"Accommodation", "url" => "accommodation.php"),
-   array("link" =>"Booking", "url" => "bookingnotready.php"),
+   array("link" =>"Booking", "url" => "booking.php"),
    array("link" =>"Contact", "url" => "contact.php"));
 }
 

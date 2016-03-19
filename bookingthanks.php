@@ -31,7 +31,7 @@ We can confirm your place on the Swaledale Squeeze once we have received your de
     Durham
     DH7 9XE
 
-If you wish you can pay the full amount of £${cost} now or pay the deposit now and the balance of £${balance} by 1st May 2015.
+If you wish you can pay the full amount of £${cost} now or pay the deposit now and the balance of £${balance} by 1st May 2016.
 
 Once I receive your deposit I'll let you know.
 
