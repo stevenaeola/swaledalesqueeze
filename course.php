@@ -15,8 +15,7 @@ and Rob Say (English). Our regular tutors are Harry Scurfield (Anglo), Paul Walk
 
   box("<h1>Timetable</h1>
 <p>
-The weekend starts on Friday 20th May. We have two informal sessions including the Dotty session, with written music provided for the tunes. Saturday includes teaching workshops in the morning and afternoon, an informal tea-time concert and a ceilidh in the evening at Reeth Memorial Hall, with the band for the ceilidh and the 'spots' provided by participants. There are more workshops on Sunday morning before the farewell concert on Sunday afternoon, again in Reeth Memorial Hall, featuring spots from the tutors and their workshop groups. More details on the exact timings and workshop titles will follow.
-</p>");
+The weekend starts on Friday 20th May. We have two informal sessions including the Dotty session, with written music provided for the tunes. Saturday includes teaching workshops in the morning and afternoon, an informal tea-time concert and a ceilidh in the evening at Reeth Memorial Hall, with the band for the ceilidh and the 'spots' provided by participants. There are more workshops on Sunday morning before the farewell concert on Sunday afternoon, again in Reeth Memorial Hall, featuring spots from the tutors and their workshop groups. You can download more details on the <a href='2016/SwaledaleProgramme2016.pdf'>exact timings</a> and <a href='2016/SwaledaleWorkshopDetails2016.pdf'>workshop details</a>.</p>");
 
   box("<h1>Other features</h1>
 <p>
