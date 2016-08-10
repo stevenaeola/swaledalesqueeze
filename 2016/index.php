@@ -1,6 +1,6 @@
 <?php
 function overview(){
-   print "<h1>Welcome</h1>
+   print "<h1>Swaledale 2016 Details</h1>
 The Swaledale Squeeze is a convivial weekend of concertina playing, 
 meeting friends, a concert, a ceilidh, sessions, Black Sheep bitter,
 walks, the comfort of <a
@@ -11,30 +11,27 @@ more could a conertina player ask for?  Everything is centred on <a href='http:/
  
 
 function rhcontent(){
-
-box("<h1>Concertina weekend 19-21 May 2017</h1>
-<p>Details of tutors are yet to be confirmed, but keep these dates in your diary if you'd like to come in 2017.</p>
-");
-
-/*
-box("<h1>Concertina weekend 20-22 May 2016</h1>
+   box("<h1>Concertina weekend 20-22 May 2016</h1>
 <p>The guest tutors for the 2016 squeeze are Brian Peters (Anglo),
 Iris Bishop (Duet) and 
 Alex Wade (English), with additional workshops from Paul McCann (Duet)
 and Rob Say (English). Our regular tutors are Harry Scurfield (Anglo), Paul Walker (English/Anglo), Carolyn Wade (Band)  and Dave Ball (Band/English).</p>
 ");
-*/
+	box("<h1>Details</h1>
+<p>
+You can look at
+<ul><li><a href='LetterToParticipants.pdf'>Letter to participants</a></li>
+<li><a href='SwaledaleProgramme2016.pdf'>Programme and timetable</a></li>
+<li><a href='SwaledaleWorkshopDetails2016.pdf'>Workshop details</a></li>
+</p>
 
-/*
-Use the navigation links on the left hand side to find out 
-ore about the <a href='course.php'>tutors and course details</a>, <a href='accommodation.php'>accommodation</a> and <a href='booking.php'>booking</a>
-*/
- box("<img src='images/friendly_concertina.jpg' alt='friendly concertina' height='313' align='center'/>   ");
+");
+	
 }
 
 function lhcontent(){
 	 
 makeLinks(links());
 }
-include "template.php";
+include "../template.php";
 ?>

@@ -1,4 +1,6 @@
 <?php
+die("Booking not open");
+
 function overview(){
    print "<h1>Booking</h1>
 If you want to book on to the Swaledale Squeeze then fill in the form on this page, or email us for a paper version - see contact page.";

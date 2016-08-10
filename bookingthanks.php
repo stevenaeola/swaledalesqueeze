@@ -1,4 +1,6 @@
 <?php
+die("Booking not open");
+
 function overview(){
    print "<h1>Thanks for your booking</h1>
 An email confirmation has been sent to you";
