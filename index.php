@@ -18,7 +18,7 @@ box("<h1>Concertina weekend 19-21 May 2017</h1>
 <li>Roisin Broderick (Anglo)</li>
 <li>Dave Townsend (English)</li>
 <li>John Morgan (Duet)</li>
-<li>Rosie Bryce (Anglo and Swedish tunes for all systems)</li>
+<li>Rosie Bryce (Anglo and Scandinavian tunes for all systems)</li>
 </ul>
 They join our dedicated band of regular tutors: Alex Wade (English), Harry Scurfield (Anglo), Paul Walker (English/Anglo), Carolyn Wade (Band) and Dave Ball (Band/English). Dave Elliott will also be joining us with his concertina maintenance workshop and drop-in sessions.</p>
 ");
