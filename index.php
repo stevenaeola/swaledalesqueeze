@@ -13,7 +13,14 @@ more could a conertina player ask for?  Everything is centred on <a href='http:/
 function rhcontent(){
 
 box("<h1>Concertina weekend 19-21 May 2017</h1>
-<p>Details of tutors are yet to be confirmed, but keep these dates in your diary if you'd like to come in 2017.</p>
+<p>We are delighted to announce that our guest tutors for this year are
+<ul>
+<li>Roisin Broderick (Anglo)</li>
+<li>Dave Townsend (English)</li>
+<li>John Morgan (Duet)</li>
+<li>Rosie Bryce (Anglo and Swedish tunes for all systems)</li>
+</ul>
+They join our dedicated band of regular tutors: Alex Wade (English), Harry Scurfield (Anglo), Paul Walker (English/Anglo), Carolyn Wade (Band) and Dave Ball (Band/English). Dave Elliott will also be joining us with his concertina maintenance workshop and drop-in sessions.</p>
 ");
 
 /*
