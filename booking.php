@@ -58,7 +58,7 @@ $accomForm </td></tr>
 <tr><td>Special dietary requirements</td><td><textarea cols='50' rows='2'
 name='special'>$special</textarea></td></tr>
 <tr><td>Comments</td><td><textarea cols='50' rows='2'
-name='special'>$special</textarea></td></tr>
+name='comments'>$special</textarea></td></tr>
 </table>
 * required fields<br/>
 <input type='submit' value='Make Booking'/>
