@@ -1,6 +1,4 @@
 <?php
-die("Booking not open");
-
 function overview(){
    print "<h1>Thanks for your booking</h1>
 An email confirmation has been sent to you";
@@ -24,7 +22,13 @@ $balance = $cost - 25;
 $message = <<<EOT
 _Thanks for your booking request._
 
-We can confirm your place on the Swaledale Squeeze once we have received your deposit of £25 payable to Swaledale Squeeze at: 
+We can confirm your place on the Swaledale Squeeze once we have received your deposit of £25.
+
+You can either pay by bank transfer (please put your name as reference)
+
+Sort code: 20-37-13 Account number: 50302767
+
+Or send a cheque payable to Swaledale Squeeze at: 
 
     Steven Bradley
     Annfield House
@@ -33,7 +37,7 @@ We can confirm your place on the Swaledale Squeeze once we have received your de
     Durham
     DH7 9XE
 
-If you wish you can pay the full amount of £${cost} now or pay the deposit now and the balance of £${balance} by 1st May 2016.
+If you wish you can pay the full amount of £${cost} now or pay the deposit now and the balance of £${balance} by 1st May 2017.
 
 Once I receive your deposit I'll let you know.
 

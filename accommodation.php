@@ -1,6 +1,6 @@
 <?php
 function overview(){
-   print "<h1>Accommodation</h1>Grinton lodge is excellent for our purposes and we are made to feel very welcome.  Most people stay in the Youth Hostel in bunk rooms, but others camp in tents or camper vans or stay in local B&B acommodation. This year we also have pods available as an interesting alternative.";
+   print "<h1>Accommodation</h1>Grinton lodge is excellent for our purposes and we are made to feel very welcome.  Most people stay in the Youth Hostel in bunk rooms, but others camp in tents or camper vans or stay in local B&B acommodation. Camping pods are also available as an interesting alternative.";
 }
 
 function rhcontent(){
@@ -15,18 +15,18 @@ All of the workshop sessions take place in the Youth Hostel. Coffee and tea are 
 
    box("<h1>Camping</h1>
 <p>
-There is a camping field next to the Youth Hostel which is suitable for tents, although access by car to the camping field is difficult. (Actually, getting in is quite easy, but getting out can be tricky, particularly if the grass is wet.) Camper vans can stay in the courtyard of the Youth Hostel with access to a toilet, but no electric hook-up. Campers are  welcome to use the self-catering kitchen in the hostel.
+There is a camping field next to the Youth Hostel which is suitable for tents, although access by car to the camping field is difficult. (Actually, getting in is quite easy, but getting out can be tricky, particularly if the grass is wet.) Camper vans can stay in the courtyard or car park of the Youth Hostel with access to a toilet, but no electric hook-up. Campers are  welcome to use the self-catering kitchen in the hostel.
 </p>");
 
   box("<h1>Pods</h1>
 <p>
-There are a some self-catering pods in the grounds of the hostel, which are a bit like wooden teepees. The largest of these pods can sleep up to five people at a push, the smaller ones can sleep up to three.
+There are a some self-catering pods in the grounds of the hostel, which are a bit like wooden teepees. Previously these had very few facilities now have beds and bedding provided in them and are available as self-catering or catered..
 </p>
 ");
 
  box("<h1>Bed and breakfast</h1>
 <p>
-There is a range of bed and breakfast accommodation in the area which you would need to book independently. If you have difficulty finding somewhere appropriate then please let us know and we may be able to help.
+There is a range of bed and breakfast accommodation in the area which you would need to book independently. We are also offering lunch as an option for those not staying in the youth hostel.
 </p>");
 }
 

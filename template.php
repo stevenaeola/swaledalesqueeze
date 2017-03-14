@@ -6,46 +6,45 @@ function accomPrices(){
    return array(
     "bunks_frimeal" =>
        array("title" => "Youth Hostel (including Friday evening meal)",
-             "adults" => 170,
-             "nonplayers" => 115,
-             "children" => 80,
-             "childrennonplayers" => 80),
+             "adults" => 180,
+             "nonplayers" => 120,
+             "children" => 90),
     "bunks_nofrimeal" =>
        array("title" => "Youth Hostel (no Friday evening meal)",
-             "adults" => 165,
-             "nonplayers" => 105,
-             "children" => 80,
-             "childrennonplayers" => 70),
+             "adults" => 170,
+             "nonplayers" => 110,
+             "children" => 80),
     "tent" => 
        array("title" => "Camping (tent)",
-             "adults" => 115,
+             "adults" => 120,
              "nonplayers" => 55,
-             "children" => 25,
-             "childrennonplayers" => 25),
+             "children" => 25),
     "campervan" => 
        array("title" => "Camping (camper van)",
-             "adults" => 115,
+             "adults" => 120,
              "nonplayers" => 55,
-             "children" => 25,
-             "childrennonplayers" => 25),
-/*    "pod_small" => 
-       array("title" => "Pod (small)",
-             "adults" => 90,
-             "nonplayers" => 35,
-             "children" => 15,
-             "childrennonplayers" => 0),
-    "pod_large" => 
-       array("title" => "Pod (large)",
-             "adults" => 90,
-             "nonplayers" => 35,
-             "children" => 15,
-             "childrennonplayers" => 0),*/
+             "children" => 25),
+    "pod_meals" => 
+       array("title" => "Pod (with meals)",
+             "adults" => 180,
+             "nonplayers" => 120,
+             "children" => 90),
+    "pod_nomeals" => 
+       array("title" => "Pod (self-catering)",
+             "adults" => 150,
+             "nonplayers" => 90,
+             "children" => 60),
     "alt" => 
        array("title" => "Alternative accommodation (e.g. B&amp;B)",
-             "adults" => 90,
+             "adults" => 95,
              "nonplayers" => 15,
-             "children" => 0,
-             "childrennonplayers" => 0)
+             "children" => 15),
+     "alt_lunch" => 
+       array("title" => "Alternative accommodation with lunches",
+             "adults" => 105,
+             "nonplayers" => 25,
+             "children" => 25)
+
     );
 }
 
@@ -58,9 +57,9 @@ function makeLinks($links){
 function links(){
    return  array(	
    array("link" =>"Home", "url" => "index.php"),
-//   array("link" =>"Course Details", "url" => "course.php"),
-//   array("link" =>"Accommodation", "url" => "accommodation.php"),
-//   array("link" =>"Booking", "url" => "booking.php"),
+   array("link" =>"Course Details", "url" => "course.php"),
+   array("link" =>"Accommodation", "url" => "accommodation.php"),
+   array("link" =>"Booking", "url" => "booking.php"),
    array("link" =>"Contact", "url" => "contact.php"));
 }
 

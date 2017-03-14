@@ -1,16 +1,14 @@
 <?php
-die("Booking not open");
-
 function overview(){
    print "<h1>Booking</h1>
-If you want to book on to the Swaledale Squeeze then fill in the form on this page, or email us for a paper version - see contact page.";
+If you want to book on to the Swaledale Squeeze then fill in the form on this page, or download the <a href='2017/SwaledaleBooking2017.pdf'>paper version</a>.";
 }
 
 function rhcontent(){
   extract($_POST);
 
   $priceList = "<table class='prices'>";
-  $priceList .="<tr><th>Accommodation Type</th><th>Adults</th><th>Non-players</th><th>Children</th><th>Children Non-players</th></tr>\n";
+  $priceList .="<tr><th>Accommodation Type</th><th>Adults</th><th>Non-players</th><th>Children</th></tr>\n";
   $accomForm = "";
   foreach(accomPrices() as $accom => $accomDetails){
      $title = $accomDetails['title'];
@@ -18,9 +16,6 @@ function rhcontent(){
      $priceList .= "<tr>";
      foreach($accomDetails as $thing => $accomPrice){
         $priceList .= "<td>$accomPrice";
-	if($thing == 'title' and ($accom =='pod_large' or $accom =='pod_small')){
-	    $priceList .= "&dagger;";
-	}
 	$priceList .= "</td>";
      }
      $priceList .= "</tr>\n";
@@ -28,9 +23,8 @@ function rhcontent(){
   $priceList .= "</table>\n";
   
   box("<h1>Prices</h1>
-<p>All prices are in pounds</p>
+<p>All prices are in pounds per person</p>
 $priceList
-<p>&dagger; Camping pods are also avaiable, please get in touch by email if you're interested.</p>
 ");
 
   box("
@@ -43,26 +37,24 @@ You can use this form to book: the total cost is calculated for you in the middl
 <input class='calculate' type='text' size='2' name='adults' value='$adults'/> Adults<br/>
 <input class='calculate' type='text' size='2' name='nonplayers' value='$nonplayers'/> Adults (non-players)<br/>
 <input class='calculate' type='text' size='2' name='children' value='$children'/> Children<br/>
-<input class='calculate' type='text' size='2' name='childrennonplayers' value='$childrennonplayers'/> Children (non-players)<br/></td></tr>
+</td></tr>
 
 
 <tr><td>Accommodation type*</td><td>
 $accomForm </td></tr>
-<!--
-<tr><td>Tickets for Sunday night concert at Otley Couthouse by Cormac Begley and Anna (£8)</td>
-<td><input class='calculate' type='text' size='2' name='otleyconcert'/></td></tr>
--->
 <tr><th>Total cost</th><th>£<span id='costdisplay'></th></tr>
 <tr><td>Name(s)*</td><td><input type='text' name='name' size='50' value='$name'></td></tr>
 <tr><td>Email*</td><td><input type='text' name='email' size='50'  value='$email'></td></tr>
-<tr><td>Telephone</td><td><input type='text' name='tel' size='20'  value='$tel'></td></tr>
-<tr><td>Address*</td><td><textarea cols='50' rows='4' name='address'>$address</textarea></td></tr>
+<tr><td>Postcode*</td><td> <input type='text' name='postcode' size='20'  value='$postcode'></td></tr>
+<tr><td>Telephone</td><td> <input type='text' name='tel' size='20'  value='$tel'></td></tr>
 <tr><td>Car registration</td><td><input type='text' name='car' size='20'  value='$car'></td></tr>
 <tr><td>Type of concertina</td><td>
 <input type='radio' name='ctype' value='english'> English<br/>
 <input type='radio' name='ctype' value='anglo'> Anglo<br/>
 <input type='radio' name='ctype' value='duet'> Duet<br/>
 </td></tr>
+<tr><td>System (if Duet) e.g. McCann, Crane</td><td><input name='system' size='20' value='$system'> </td></tr>
+
 <tr><td>Special dietary requirements</td><td><textarea cols='50' rows='2'
 name='special'>$special</textarea></td></tr>
 <tr><td>Comments</td><td><textarea cols='50' rows='2'
@@ -92,11 +84,7 @@ function calcCost(){
     if(!nonplayers){
 	nonplayers = 0;
     }
-    var childrennonplayers = Number($('[name=childrennonplayers]').val());
-    if(!childrennonplayers){
-	childrennonplayers = 0;
-    }
-    var people = adults + children + nonplayers + childrennonplayers;
+    var people = adults + children + nonplayers;
     if(people == 0){
     	return "";
     }
@@ -113,9 +101,9 @@ function calcCost(){
 //    alert("accom " + accom + " prices " + prices[accom]['adults']);
     accomCost = adults*prices[accom]['adults']
               + children*prices[accom]['children']
-              + childrennonplayers*prices[accom]['childrennonplayers']
               + nonplayers*prices[accom]['nonplayers'];
-    var podCost;
+/*
+var podCost;
     if(accom == 'pod_large'){
       podCost = 98;
     }
@@ -125,8 +113,10 @@ function calcCost(){
     else{
       podCost = 0;
     }
+    */
 //    totalCost = accomCost + podCost + otleyCost;
-    totalCost = accomCost + podCost;
+//    totalCost = accomCost + podCost;
+    totalCost = accomCost;
     return totalCost;
 }
 
@@ -159,7 +149,7 @@ function validate(){
     var name = $('[name=name]').val();
     var address = $('[name=address]').val();
     if(email.length == 0 || name.length == 0 || address.length ==0){
-       alert("Please enter name, email and address");
+       alert("Please enter name, email and postcode");
        return false;
     }
     return true;

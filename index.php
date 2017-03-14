@@ -23,19 +23,11 @@ box("<h1>Concertina weekend 19-21 May 2017</h1>
 They join our dedicated band of regular tutors: Alex Wade (English), Harry Scurfield (Anglo), Paul Walker (English/Anglo), Carolyn Wade (Band) and Dave Ball (Band/English). Dave Elliott will also be joining us with his concertina maintenance workshop and drop-in sessions.</p>
 ");
 
-/*
-box("<h1>Concertina weekend 20-22 May 2016</h1>
-<p>The guest tutors for the 2016 squeeze are Brian Peters (Anglo),
-Iris Bishop (Duet) and 
-Alex Wade (English), with additional workshops from Paul McCann (Duet)
-and Rob Say (English). Our regular tutors are Harry Scurfield (Anglo), Paul Walker (English/Anglo), Carolyn Wade (Band)  and Dave Ball (Band/English).</p>
-");
-*/
 
-/*
+box("
 Use the navigation links on the left hand side to find out 
 ore about the <a href='course.php'>tutors and course details</a>, <a href='accommodation.php'>accommodation</a> and <a href='booking.php'>booking</a>
-*/
+");
  box("<img src='images/friendly_concertina.jpg' alt='friendly concertina' height='313' align='center'/>   ");
 }
 
