@@ -23,6 +23,11 @@ box("<h1>Concertina weekend 19-21 May 2017</h1>
 They join our dedicated band of regular tutors: Alex Wade (English), Harry Scurfield (Anglo), Paul Walker (English/Anglo), Carolyn Wade (Band) and Dave Ball (Band/English). Dave Elliott will also be joining us with his concertina maintenance workshop and drop-in sessions.</p>
 ");
 
+    box("<h2>Supported by </h2>
+        <p>IrishArts Foundation and culture ireland</P>
+        <p><img width='30%' src='images/IAFLogo.jpg'></img>
+        <img width = '50%' src='images/culture_ireland_logo.jpg'></img></p>
+        ");
 
 box("
 Use the navigation links on the left hand side to find out 
