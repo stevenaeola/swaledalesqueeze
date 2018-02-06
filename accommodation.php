@@ -6,7 +6,7 @@ function overview(){
 function rhcontent(){
   box("<h1>For everybody</h1>
 <p>
-All of the workshop sessions take place in the Youth Hostel. Coffee and tea are povided in break times. Three kegs of the local Black Sheep Ale are available for self-service with an honesty box and other alcoholic drinks are available to buy from the Youth Hostel. You are welcome to bring your own alcohol to the ceilidh but not to consume at Grinton Lodge.
+All of the workshop sessions take place in the Youth Hostel. Coffee and tea are povided in break times. Kegs of the local Black Sheep Ale are available for self-service with an honesty box and other alcoholic drinks are available to buy from the Youth Hostel. You are welcome to bring your own alcohol to the ceilidh but not to consume at Grinton Lodge.
 </p>"
 );
    box("<h1>Youth Hostel bunks</h1>
@@ -20,7 +20,7 @@ There is a camping field next to the Youth Hostel which is suitable for tents, a
 
   box("<h1>Pods</h1>
 <p>
-There are a some self-catering pods in the grounds of the hostel, which are a bit like wooden teepees. Previously these had very few facilities now have beds and bedding provided in them and are available as self-catering or catered..
+There are a some self-catering pods in the grounds of the hostel, which are a bit like wooden teepees. Previously these had very few facilities but now have beds and bedding provided.
 </p>
 ");
 

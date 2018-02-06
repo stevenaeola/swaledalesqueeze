@@ -12,23 +12,23 @@ more could a conertina player ask for?  Everything is centred on <a href='http:/
 
 function rhcontent(){
 
-box("<h1>Concertina weekend 19-21 May 2017</h1>
+box("<h1>Concertina weekend 18-20 May 2018</h1>
 <p>We are delighted to announce that our guest tutors for this year are
 <ul>
-<li>Roisin Broderick (Anglo)</li>
-<li>Dave Townsend (English)</li>
-<li>John Morgan (Duet)</li>
-<li>Rosie Bryce (Anglo and Scandinavian tunes for all systems)</li>
-</ul>
-They join our dedicated band of regular tutors: Alex Wade (English), Harry Scurfield (Anglo), Paul Walker (English/Anglo), Carolyn Wade (Band) and Dave Ball (Band/English). Dave Elliott will also be joining us with his concertina maintenance workshop and drop-in sessions.</p>
-");
 
+<li>John Spiers (Anglo)</li>
+<li>Michael Jary (English)</li>
+<li>Iris Bishop (Duet)</li>
+</ul>
+They join our dedicated band of regular tutors: Alex Wade (English), Harry Scurfield (Anglo), Paul Walker (English/Anglo), Carolyn Wade (Band) and Dave Ball (Band/English). </p>
+");
+/*
     box("<h2>Supported by </h2>
         <p>IrishArts Foundation and culture ireland</P>
         <p><img width='30%' src='images/IAFLogo.jpg'></img>
         <img width = '50%' src='images/culture_ireland_logo.jpg'></img></p>
         ");
-
+*/
 box("
 Use the navigation links on the left hand side to find out 
 ore about the <a href='course.php'>tutors and course details</a>, <a href='accommodation.php'>accommodation</a> and <a href='booking.php'>booking</a>
