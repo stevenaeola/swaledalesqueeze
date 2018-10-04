@@ -6,8 +6,8 @@ function overview(){
 
 function rhcontent(){
    box("<h1>Tutors</h1>
-<p>The guest tutors for the 2018 squeeze are Iris Bishop (duet)
-Michael Jary (English) and John Spiers (Anglo). Our regular tutors are  Alex Wade (English), Harry Scurfield (Anglo), Paul Walker (English/Anglo), Carolyn Wade (Band)  and Dave Ball (Band/English). Together they provide workshops covering a whole range of concertina playing for different abilities, systems and styles.
+<p>The guest tutors for the 2018 squeeze are <b>Iris Bishop</b> (duet)
+<b>Michael Jary</b> (English) and <b>John Spiers</b> (Anglo). Our regular tutors are  <b>Alex Wade</b> (English), <b>Harry Scurfield</b> (Anglo), <b>Paul Walker</b> (English/Anglo), <b>Carolyn Wade</b> (Band)  and <b>Dave Ball</b> (Band/English). Together they provide workshops covering a whole range of concertina playing for different abilities, systems and styles.
 </p>");
 
   box("<h1>Timetable</h1>

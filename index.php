@@ -16,11 +16,11 @@ box("<h1>Concertina weekend 18-20 May 2018</h1>
 <p>We are delighted to announce that our guest tutors for this year are
 <ul>
 
-<li>John Spiers (Anglo)</li>
-<li>Michael Jary (English)</li>
-<li>Iris Bishop (Duet)</li>
+<li><b>John Spiers (Anglo)</b></li>
+<li><b>Michael Jary (English)</b></li>
+<li><b>Iris Bishop (Duet)</b></li>
 </ul>
-They join our dedicated band of regular tutors: Alex Wade (English), Harry Scurfield (Anglo), Paul Walker (English/Anglo), Carolyn Wade (Band) and Dave Ball (Band/English). </p>
+They join our dedicated band of regular tutors: <b>Alex Wade</b> (English), <b>Harry Scurfield</b> (Anglo), <b>Paul Walker</b> (English/Anglo), <b>Carolyn Wade</b> (Band) and <b>Dave Ball</b> (Band/English). </p>
 ");
 /*
     box("<h2>Supported by </h2>

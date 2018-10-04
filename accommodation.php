@@ -6,7 +6,7 @@ function overview(){
 function rhcontent(){
   box("<h1>For everybody</h1>
 <p>
-All of the workshop sessions take place in the Youth Hostel. Coffee and tea are povided in break times. Kegs of the local Black Sheep Ale are available for self-service with an honesty box and other alcoholic drinks are available to buy from the Youth Hostel. You are welcome to bring your own alcohol to the ceilidh but not to consume at Grinton Lodge.
+All of the workshop sessions take place in the Youth Hostel. Coffee and tea are provided in break times. Kegs of the local Black Sheep Ale are available for self-service with an honesty box and other alcoholic drinks are available to buy from the Youth Hostel. You are welcome to bring your own alcohol to the ceilidh but not to consume at Grinton Lodge.
 </p>"
 );
    box("<h1>Youth Hostel bunks</h1>
@@ -15,12 +15,12 @@ All of the workshop sessions take place in the Youth Hostel. Coffee and tea are 
 
    box("<h1>Camping</h1>
 <p>
-There is a camping field next to the Youth Hostel which is suitable for tents, although access by car to the camping field is difficult. (Actually, getting in is quite easy, but getting out can be tricky, particularly if the grass is wet.) Camper vans can stay in the courtyard or car park of the Youth Hostel with access to a toilet, but no electric hook-up. Campers are  welcome to use the self-catering kitchen in the hostel.
+There is a camping field next to the Youth Hostel which is suitable for tents, although access by car to the camping field is difficult. (Actually, getting in is quite easy, but getting out can be tricky, particularly if the grass is wet.) Camper vans can stay in the courtyard or car park of the Youth Hostel with access to a toilet, but no electric hook-up. Campers are  welcome to use the self-catering kitchen in the hostel, and can access showers and toilets in the hostel.
 </p>");
 
   box("<h1>Pods</h1>
 <p>
-There are a some self-catering pods in the grounds of the hostel, which are a bit like wooden teepees. Previously these had very few facilities but now have beds and bedding provided.
+There are some pods in the grounds of the hostel, which are a bit like wooden teepees.  Previously these had very few facilities but now have beds and bedding provided as well as food provided in the hostel. Most of the pods sleep two people.
 </p>
 ");
 

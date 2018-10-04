@@ -62,6 +62,23 @@ name='comments'>$special</textarea></td></tr>
 </table>
 * required fields<br/>
 <p><b>When you click on 'Make Booking' an email will be created for you to send. Please add a subject and send it as is.</b></p>
+<p>For now this does not work on a mobile device</p>
+<p>We can confirm your place on the Swaledale Squeeze once we have received your deposit of £25.
+</p>
+<p>
+You can either pay by bank transfer (please put your name as reference)
+<pre>
+Sort code: 20-37-13 Account number: 50302767
+</pre>
+Or send a cheque payable to Swaledale Squeeze at: 
+<pre>
+    Steven Bradley
+    Annfield House
+    Front Street
+    Langley Park
+    Durham
+    DH7 9XE
+</pre>
 <input type='submit' value='Make Booking'/>
 </form>
 ");
