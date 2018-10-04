@@ -52,9 +52,9 @@ function makeLinks($links){
 function links(){
    return  array(	
    array("link" =>"Home", "url" => "index.php"),
-   array("link" =>"Course Details", "url" => "course.php"),
-   array("link" =>"Accommodation", "url" => "accommodation.php"),
-   array("link" =>"Booking", "url" => "booking.php"),
+//   array("link" =>"Course Details", "url" => "course.php"),
+//   array("link" =>"Accommodation", "url" => "accommodation.php"),
+//   array("link" =>"Booking", "url" => "booking.php"),
    array("link" =>"Contact", "url" => "contact.php"));
 }
 

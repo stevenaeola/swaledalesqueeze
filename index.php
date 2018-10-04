@@ -12,33 +12,33 @@ more could a conertina player ask for?  Everything is centred on <a href='http:/
 
 function rhcontent(){
 
-box("<h1>Concertina weekend 18-20 May 2018</h1>
-<p>We are delighted to announce that our guest tutors for this year are
+box("<h1>Concertina weekend 17-19 May 2019</h1>
+<p>Looking forward to next year's event. People are already keen to know when it's on, and we are in the process of arranging tutors. Watch this space.
+<!--
 <ul>
 
 <li><b>John Spiers (Anglo)</b></li>
 <li><b>Michael Jary (English)</b></li>
 <li><b>Iris Bishop (Duet)</b></li>
 </ul>
-They join our dedicated band of regular tutors: <b>Alex Wade</b> (English), <b>Harry Scurfield</b> (Anglo), <b>Paul Walker</b> (English/Anglo), <b>Carolyn Wade</b> (Band) and <b>Dave Ball</b> (Band/English). </p>
+They join our dedicated band of regular tutors: <b>Alex Wade</b> (English), <b>Harry Scurfield</b> (Anglo), <b>Paul Walker</b> (English/Anglo), <b>Carolyn Wade</b> (Band) and <b>Dave Ball</b> (Band/English). 
+-->
+</p>
 ");
 /*
-    box("<h2>Supported by </h2>
-        <p>IrishArts Foundation and culture ireland</P>
-        <p><img width='30%' src='images/IAFLogo.jpg'></img>
-        <img width = '50%' src='images/culture_ireland_logo.jpg'></img></p>
-        ");
-*/
 box("
 Use the navigation links on the left hand side to find out 
 ore about the <a href='course.php'>tutors and course details</a>, <a href='accommodation.php'>accommodation</a> and <a href='booking.php'>booking</a>
 ");
  box("<img src='images/friendly_concertina.jpg' alt='friendly concertina' height='313' align='center'/>   ");
+*/
 }
 
+/*
 function lhcontent(){
 	 
 makeLinks(links());
 }
+*/
 include "template.php";
 ?>
