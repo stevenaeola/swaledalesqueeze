@@ -25,20 +25,21 @@ box("<h1>Concertina weekend 17-19 May 2019</h1>
 They join our dedicated band of regular tutors: <b>Alex Wade</b> (English), <b>Harry Scurfield</b> (Anglo), <b>Paul Walker</b> (English/Anglo), <b>Carolyn Wade</b> (Band) and <b>Dave Ball</b> (Band/English). 
 </p>
 ");
-/*
+
 box("
 Use the navigation links on the left hand side to find out 
 ore about the <a href='course.php'>tutors and course details</a>, <a href='accommodation.php'>accommodation</a> and <a href='booking.php'>booking</a>
 ");
-*/ box("<img src='images/friendly_concertina.jpg' alt='friendly concertina' height='313' align='center'/>   ");
+
+box("<img src='images/friendly_concertina.jpg' alt='friendly concertina' height='313' align='center'/>   ");
 
 }
 
-/*
+
 function lhcontent(){
 	 
 makeLinks(links());
 }
-*/
+
 include "template.php";
 ?>

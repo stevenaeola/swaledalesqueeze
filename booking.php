@@ -1,7 +1,7 @@
 <?php
 function overview(){
    print "<h1>Booking</h1>
-If you want to book on to the Swaledale Squeeze then fill in the form on this page, or download the <a href='2018/SwaledaleBooking2018.pdf'>Paper version</a>.";
+If you want to book on to the Swaledale Squeeze then fill in the form on this page, or download the <a href='2019/SwaledaleBooking2019.pdf'>Paper version</a>.";
 }
 
 function rhcontent(){
