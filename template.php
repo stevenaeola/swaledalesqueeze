@@ -92,8 +92,9 @@ function box($content){
     	<div class="overview">
 <?php overview(); ?>
 </div>
-<?php 
+<?php /*
 makeLinks(links());
+*/
 ?>        
 <div id="navBottom"></div>
     </div>
