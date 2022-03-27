@@ -5,8 +5,9 @@ function overview(){
    
 
 function rhcontent(){
+         box("<h1>Dates for 2020: 15-17 May</h1><p>Booking will be open in early spring 2020</p>");
    box("<h1>Tutors</h1>
-<p>The guest tutors for the 2019 squeeze are 
+<p>The guest tutors for the 2019 squeeze were 
 <ul>
 <li><b>Jody Kruskal (USA) on Anglo</b></li>
 <li><b>Simon Thoumire (Edinburgh) on English</b></li>
@@ -18,11 +19,10 @@ function rhcontent(){
 
   box("<h1>Timetable</h1>
 <p>
-The weekend starts on Friday 17th May. We have two informal sessions including the Dotty session, with written music provided for the tunes. Saturday includes teaching workshops in the morning and afternoon, an informal tea-time concert and a ceilidh in the evening in Reeth, with the band for the ceilidh and the 'spots' provided by participants. There are more workshops on Sunday morning before the farewell concert on Sunday afternoon, again in Reeth, featuring spots from the tutors and their workshop groups. </p>");
+The weekend starts on Friday evening with informal sessions including the Dotty session, with written music provided for the tunes. Saturday includes teaching workshops in the morning and afternoon, an informal tea-time concert and a ceilidh in the evening in Reeth, with the band for the ceilidh and the 'spots' provided by participants. There are more workshops on Sunday morning before the farewell concert on Sunday afternoon, again in Reeth, featuring spots from the tutors and their workshop groups. </p>");
 
-/*
-You can download more details on the <a href='2016/SwaledaleProgramme2016.pdf'>exact timings</a> and <a href='2016/SwaledaleWorkshopDetails2016.pdf'>workshop details</a>.</p>");
-*/
+box("<p> You can see the <a href='2019/SwaledaleProgramme2019.pdf'>2019 timetable</a></p>");
+
 
 
   box("<h1>Other features</h1>

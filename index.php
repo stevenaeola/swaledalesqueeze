@@ -12,24 +12,17 @@ more could a conertina player ask for?  Everything is centred on <a href='http:/
 
 function rhcontent(){
 
-box("<h1>Concertina weekend 17-19 May 2019</h1>
-<p>We can now confirm the guest tutors for 2019 will be</p>
-
-
-<ul>
-
-<li><b>Jody Kruskal (USA) on Anglo</b></li>
-<li><b>Simon Thoumire (Edinburgh) on English</b></li>
-<li><b>Tim Laycock (Dorset) on Duet</b></li>
-</ul>
-They join our dedicated band of regular tutors: <b>Alex Wade</b> (English), <b>Harry Scurfield</b> (Anglo), <b>Paul Walker</b> (English/Anglo), <b>Carolyn Wade</b> (Band) and <b>Dave Ball</b> (Band/English). 
+box("<h1>Cancelled: Concertina weekend 15-17 May 2020 </h1>
+<p>Sadly we feel that we have little option but to cancel this year's event, due the ongoing situation with coronavirus
 </p>
 ");
 
+/*
 box("
 Use the navigation links on the left hand side to find out 
 ore about the <a href='course.php'>tutors and course details</a>, <a href='accommodation.php'>accommodation</a> and <a href='booking.php'>booking</a>
 ");
+*/
 
 box("<img src='images/friendly_concertina.jpg' alt='friendly concertina' height='313' align='center'/>   ");
 
